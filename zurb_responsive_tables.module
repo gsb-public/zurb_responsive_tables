@@ -15,6 +15,7 @@
       'name' => 'Zurb Responsive Tables',
       'vendor url' => 'http://zurb.com/playground/responsive-tables',
       'download url' => 'https://github.com/zurb/responsive-tables',
+      'version' => '1.0',
       'files' => array(
         'js' => array(
           'responsive-tables.js',
