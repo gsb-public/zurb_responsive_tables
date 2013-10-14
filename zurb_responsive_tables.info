@@ -1,0 +1,3 @@
+name = Zurb Responsive Tables
+core = 7.x
+description = "Adds Zurb version of responsive tables on every page."

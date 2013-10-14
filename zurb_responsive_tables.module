@@ -1,0 +1,27 @@
+<?php
+
+  /**
+   * Implements hook_library().
+   */
+  function zurb_responsive_tables_page_build($page) {
+    libraries_load('zurb-responsive-tables');
+  }
+
+  /**
+   * Implement hook_libraries_info().
+   */
+  function zurb_responsive_tables_libraries_info() {
+    $libraries['responsive-tables'] = array(
+      'name' => 'Zurb Responsive Tables',
+      'vendor url' => 'http://zurb.com/playground/responsive-tables',
+      'download url' => 'https://github.com/zurb/responsive-tables',
+      'files' => array(
+        'js' => array(
+          'responsive-tables.js',
+        ),
+        'css' => array(
+          'responsive-tables.css',
+        ),
+      ),
+    );
+  }
