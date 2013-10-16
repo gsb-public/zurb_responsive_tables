@@ -11,7 +11,7 @@
    * Implement hook_libraries_info().
    */
   function zurb_responsive_tables_libraries_info() {
-    $libraries['responsive-tables'] = array(
+    $libraries['zurb-responsive-tables'] = array(
       'name' => 'Zurb Responsive Tables',
       'vendor url' => 'http://zurb.com/playground/responsive-tables',
       'download url' => 'https://github.com/zurb/responsive-tables',
